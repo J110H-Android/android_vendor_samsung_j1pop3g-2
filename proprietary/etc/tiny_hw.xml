@@ -142,7 +142,7 @@
      <ctl name="ADCR Mixer HPMICADCR Switch" val="0" />
   </path>
 </device>
-<!--
+<!-- 
 <device name="line-speaker">
   <path name="on">
      <ctl name="SPKL Mixer ADCLSPKL Switch" val="1" />
@@ -185,10 +185,7 @@
      <ctl name="Line Function" val="1" />
 <!--     <ctl name="HeadPhone Mute" val="0" /> -->
   </path>
-  <path name="off">
-     <ctl name="Linein Speaker Mute Switch" val="1" />
-     <ctl name="Linein Headphone Mute Switch" val="1" />
-     <ctl name="Linein Mute Switch" val="1" />
+  <path name="off">     
      <ctl name="Line Function" val="0" />
      <ctl name="ADCL Mixer AILADCL Switch" val="0" />
      <ctl name="ADCR Mixer AIRADCR Switch" val="0" />
@@ -198,7 +195,7 @@
 <device name="digital-fm">
   <path name="on">
      <ctl name="Digital FM Function" val="1" />
-     <ctl name="AD IISMUX" val="1" />
+     <ctl name="AD IISMUX" val="2" />
   </path>
   <path name="off">
      <ctl name="Digital FM Function" val="0" />
